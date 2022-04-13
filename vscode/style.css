@@ -58,3 +58,49 @@ ul{
 span {
     border-bottom: 1px solid black;
 }
+
+.About h1 {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.About_contents {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+}
+
+.prof {
+    width:403.02px;
+}
+
+.bicycle h1{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.bicycle_contents{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.bicycle_content{
+    padding: 10px;
+}
+
+.bicycleimg{
+    width: 230px;
+    height: 150px;
+}
+
+@media (max-width:670px){
+    .bicycleimg{
+        width: 50%;
+    }
+}
